@@ -1,0 +1,51 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Datasets
+postflood_dataset/
+preflood_dataset/
+preflood_dataset_classified/
+pre_processed_images/
+post_processed_images/
+colored_difference_images/
+flood_difference_images/
+ground_truth_masks/
+ground_truth_visualizations/
+
+# Models
+*.h5
+trained_models/
+
+# Logs
+training_logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules if any
+node_modules/
